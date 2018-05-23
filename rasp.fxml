@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="649.0" prefWidth="852.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="51.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Расписание" wrappingWidth="110.13671875">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <TableView layoutX="51.0" layoutY="42.0" prefHeight="565.0" prefWidth="750.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="1A" />
+          <TableColumn prefWidth="75.0" text="1B" />
+            <TableColumn prefWidth="75.0" text="2A" />
+            <TableColumn prefWidth="75.0" text="2B" />
+            <TableColumn prefWidth="75.0" text="2C" />
+            <TableColumn prefWidth="75.0" text="3A" />
+            <TableColumn prefWidth="75.0" text="3D" />
+            <TableColumn prefWidth="75.0" text="4E" />
+            <TableColumn prefWidth="75.0" text="4F" />
+            <TableColumn prefWidth="75.0" text="5A" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>
